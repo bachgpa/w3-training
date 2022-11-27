@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+/* HEADER */
+#header {
+    display: flex;
+    justify-content: space-between;
+    height: 46px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#nav {
+    padding: 0;
+    margin: 0;
+}
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#nav li a {
+    display: block;
+    padding: 0 14px;
+    line-height: 46px;
+    color: #ccc;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#nav .submore li:hover > a,
+#nav > li:hover > a {
+    background-color: #ccc;
+    color: #000;
+}
+
+#nav > li:hover .submore {
+    display: block;
+}
+
+#nav .submore {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 200px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.411);
+}
+
+#nav .submore li {
+    display: block;
+}
+
+#nav .submore li>a {
+    padding: 0 8px;
+    color: rgb(0, 0, 0);
+}
+
+#header .search {
+    color: #ccc;
+    font-size: 16px;
+    line-height: 46px;
+    padding: 0 24px;
+    cursor: pointer;
+}
+
+#header .search:hover {
+background-color: rgba(255, 0, 0, 0.733);
+}
+
+/* HEADER */
+
+/* SLIDER */
+#slider {
+    padding-top: 50%;
+    background: 
+    url(https://cdn.sforum.vn/sforum/wp-content/uploads/2022/09/genshin-nahida-thumb.jpg) top center /cover no-repeat;
+    margin-top: 46px;
+}
+
+
+#slider .slider-detail {
+    position: absolute;
+    bottom: 116px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+#slider .slider-content {
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#slider .slider-description {
+
+}
+
+
+/* SLIDER */
