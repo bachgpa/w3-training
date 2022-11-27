@@ -79,6 +79,7 @@ background-color: rgba(255, 0, 0, 0.733);
 
 /* SLIDER */
 #slider {
+    position: relative;
     padding-top: 50%;
     background: 
     url(https://cdn.sforum.vn/sforum/wp-content/uploads/2022/09/genshin-nahida-thumb.jpg) top center /cover no-repeat;
@@ -88,7 +89,7 @@ background-color: rgba(255, 0, 0, 0.733);
 
 #slider .slider-detail {
     position: absolute;
-    bottom: 116px;
+    bottom: 26px;
     width: 100%;
     color: rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.5);
