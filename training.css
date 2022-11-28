@@ -10,14 +10,14 @@ html {
 }
 /* HEADER */
 #header {
-    display: flex;
-    justify-content: space-between;
-    height: 46px;
-    background-color: #000;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 46px;
+    background-color: #000;
 }
 #nav {
     padding: 0;
