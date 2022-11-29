@@ -83,7 +83,8 @@ background-color: rgba(255, 0, 0, 0.733);
     position: relative;
     padding-top: 50%;
     background: 
-    url(https://cdn.sforum.vn/sforum/wp-content/uploads/2022/09/genshin-nahida-thumb.jpg) top center /cover no-repeat;
+    url(https://cdn.sforum.vn/sforum/wp-content/uploads/2022/09/genshin-nahida-thumb.jpg) 
+    top center /cover no-repeat;
     margin-top: 46px;
 }
 
@@ -132,13 +133,62 @@ background-color: rgba(255, 0, 0, 0.733);
     margin: 25px 0px 15px 0px;
     font-style: italic;
     opacity: 0.6;
+    text-transform: capitalize;
 }
 
 #content .about {
     text-align: justify;
     font-size: 15px;
     line-height: 1.4;
+    margin: 0px 0px 15px 0px;
 }
 
+.story {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.story .story-line {
+    position: relative;
+    margin: 24px 24px 8px 24px;
+    width: 100%;
+    height: 400px;
+    background-position: top center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.story #Rukkhadevata {
+    background-image: url("https://cdn.donmai.us/original/f2/af/__aranara_and_rukkhadevata_genshin_impact_drawn_by_hapwind__f2afeffb5786e0c07b2003081226d130.jpg");
+}
+.story #dark-knowledge {
+    background-image: url("https://vcgamers.com/news/wp-content/uploads/2022/11/rukkhadevata-genshin-impact-profile.jpg");    
+}
+.story #nahida {
+    background-image: url("https://upload-os-bbs.hoyolab.com/upload/2022/08/30/185977147/8b2b33bb8f203204d5f7ddaacebc3c4d_447405984002704719.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg");    
+}
+
+.story .story-tale {
+    display: block;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    text-align: center;
+    width: inherit;
+    top: -30px;
+}
+
+.story .story-detail {
+    text-align: justify;
+    letter-spacing: 3px;
+    top: 450px;
+}
+
+/* .tale-img {
+    width: 100px;
+} */
 
 /* CONTENT */
